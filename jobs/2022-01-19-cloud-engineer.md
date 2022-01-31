@@ -16,7 +16,7 @@ Some Engineering Inc.'s mission is to make cloud infrastructure searchable and a
 
 We are looking for a highly motivated **Cloud Engineer** to join the Some Engineering Inc. team. As a small team, we pursue value-driven development.
 
-The ideal candidate shows empathy when interacting with users and is receptive to feedback. You excel with minimal technical supervision and implement solutions independently while supporting the rest of the team. You embrace time constraints and collaborate to deliver high-quality products and features in a fast-paged, agile environment.
+As an ideal candidate, you show empathy when interacting with users and are receptive to feedback. You excel with minimal technical supervision and implement solutions independently while supporting the rest of the team. You embrace time constraints and collaborate to deliver high-quality products and features in a fast-paged, agile environment.
 
 Some Engineering Inc. is based in Hamburg, Germany with a fully remote international team.
 
