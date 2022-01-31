@@ -54,3 +54,7 @@ Some Engineering Inc. is based in Hamburg, Germany with a fully remote internati
 - 30 vacation days per year
 
 <p><a href="https://www.linkedin.com/jobs/view/2879894921/" target="_blank" rel="noopener noreferrer" className="button button--primary">Apply on LinkedIn</a> or <a href="mailto:hr@some.engineering" className="button button--primary">Apply via Email</a></p>
+
+## Resources
+
+- [Engineering Interview Process](/handbook/hiring/interview-process/engineering)
