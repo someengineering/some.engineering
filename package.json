@@ -1,0 +1,88 @@
+{
+  "name": "some-engineering",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/someengineering/some.engineering.git"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "build": "docusaurus build",
+    "clear": "docusaurus clear",
+    "deploy": "docusaurus deploy",
+    "format": "prettier --write .",
+    "lint": "eslint \"./**/*.{ts,tsx}\"",
+    "prepare": "husky install",
+    "serve": "docusaurus serve",
+    "start": "docusaurus start",
+    "swizzle": "docusaurus swizzle",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "write-translations": "docusaurus write-translations"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-beta.15",
+    "@docusaurus/plugin-client-redirects": "^2.0.0-beta.15",
+    "@docusaurus/plugin-sitemap": "^2.0.0-beta.15",
+    "@docusaurus/preset-classic": "2.0.0-beta.15",
+    "@fec/remark-a11y-emoji": "^3.1.0",
+    "@mdx-js/react": "^1.6.21",
+    "@octokit/core": "^3.5.1",
+    "a11y-react-emoji": "^1.2.0",
+    "clsx": "^1.1.1",
+    "prism-react-renderer": "^1.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@docusaurus/module-type-aliases": "^2.0.0-beta.15",
+    "@tsconfig/docusaurus": "^1.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "commitizen": "^4.2.4",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-formatjs": "^2.20.5",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.2",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx}": [
+      "prettier --write",
+      "eslint"
+    ],
+    "**/*.{css,json,md,mdx,yml}": [
+      "prettier --write"
+    ]
+  }
+}

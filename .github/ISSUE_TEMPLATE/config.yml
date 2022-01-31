@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discord
+    url: https://discord.gg/someengineering
+    about: Chat with other users and the Some Engineering team
+  - name: 🌐 Website
+    url: https://some.engineering
+    about: Read and search the official Some Engineering website

@@ -1,0 +1,311 @@
+.hero {
+  background: linear-gradient(#000d19, #0a253f 80%, #000d19);
+  display: grid;
+  grid-template-columns: 1fr;
+  overflow: hidden;
+}
+
+.hero > div {
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+.heroBg {
+  z-index: 10;
+  background-image: url('./img/cloud-bg.svg');
+  background-size: auto 45%;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  animation-name: bg-scroll;
+  animation-duration: 120s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  width: 200%;
+  height: 80%;
+}
+
+.clouds {
+  height: 70%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cloud {
+  width: 100%;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-name: cloud-float;
+  position: relative;
+}
+
+.cloud1 {
+  background: url('./img/cloud1.svg') no-repeat;
+}
+
+.cloud2 {
+  background: url('./img/cloud2.svg') no-repeat;
+}
+
+.cloud3 {
+  background: url('./img/cloud3.svg') no-repeat;
+}
+
+.cloud4 {
+  background: url('./img/cloud4.svg') no-repeat;
+}
+
+.cloudForeground {
+  z-index: 5;
+  height: 30%;
+  max-height: 120px;
+  animation-duration: 120s;
+}
+
+.cloudBackground {
+  z-index: 0;
+  height: 20%;
+  max-height: 60px;
+  animation-duration: 210s;
+}
+
+.cloud:nth-child(1) {
+  animation-delay: -18.46153846s;
+  top: 2%;
+}
+
+.cloud.cloudForeground:nth-child(1) {
+  animation-duration: 116s;
+  height: 25%;
+}
+
+.cloud.cloudBackground:nth-child(1) {
+  animation-duration: 146s;
+  height: 15.5%;
+}
+
+.cloud:nth-child(2) {
+  animation-delay: -36.92307692s;
+  top: 4.5%;
+}
+
+.cloud.cloudForeground:nth-child(2) {
+  animation-duration: 112s;
+  height: 30%;
+}
+
+.cloud.cloudBackground:nth-child(2) {
+  animation-duration: 142s;
+  height: 13.25%;
+}
+
+.cloud:nth-child(3) {
+  animation-delay: -55.38461538s;
+  top: 6%;
+}
+
+.cloud.cloudForeground:nth-child(3) {
+  animation-duration: 108s;
+  height: 31%;
+}
+
+.cloud.cloudBackground:nth-child(3) {
+  animation-duration: 138s;
+  height: 16.75%;
+}
+
+.cloud:nth-child(4) {
+  animation-delay: -73.84615385s;
+  top: -8%;
+}
+
+.cloud.cloudForeground:nth-child(4) {
+  animation-duration: 104s;
+  height: 30%;
+}
+
+.cloud.cloudBackground:nth-child(4) {
+  animation-duration: 134s;
+  height: 8.25%;
+}
+
+.cloud:nth-child(5) {
+  animation-delay: -92.30769231s;
+  top: -25%;
+}
+
+.cloud.cloudForeground:nth-child(5) {
+  animation-duration: 100s;
+  height: 29%;
+}
+
+.cloud.cloudBackground:nth-child(5) {
+  animation-duration: 130s;
+  height: 5.625%;
+}
+
+.cloud:nth-child(6) {
+  animation-delay: -110.76923077s;
+  top: -48%;
+}
+
+.cloud.cloudForeground:nth-child(6) {
+  animation-duration: 96s;
+  height: 30%;
+}
+
+.cloud.cloudBackground:nth-child(6) {
+  animation-duration: 126s;
+  height: 4%;
+}
+
+.cloud:nth-child(7) {
+  animation-delay: -129.23076923s;
+  top: -56%;
+}
+
+.cloud.cloudForeground:nth-child(7) {
+  animation-duration: 92s;
+  height: 47%;
+}
+
+.cloud.cloudBackground:nth-child(7) {
+  animation-duration: 122s;
+  height: 6%;
+}
+
+.cloud:nth-child(8) {
+  animation-delay: -147.69230769s;
+  top: -96%;
+}
+
+.cloud.cloudForeground:nth-child(8) {
+  animation-duration: 88s;
+  height: 30%;
+}
+
+.cloud.cloudBackground:nth-child(8) {
+  animation-duration: 118s;
+  height: 10%;
+}
+
+.cloud:nth-child(9) {
+  animation-delay: -166.15384615s;
+  top: -72%;
+}
+
+.cloud.cloudForeground:nth-child(9) {
+  animation-duration: 84s;
+  height: 31%;
+}
+
+.cloud.cloudBackground:nth-child(9) {
+  animation-duration: 114s;
+}
+
+.cloud:nth-child(10) {
+  animation-delay: -184.61538462s;
+  top: -120%;
+  height: 40%;
+}
+
+.cloud.cloudForeground:nth-child(10) {
+  animation-duration: 80s;
+}
+
+.cloud.cloudBackground:nth-child(10) {
+  animation-duration: 110s;
+}
+
+.heroInner {
+  padding: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.heroTitle {
+  display: none;
+}
+
+.heroLogo {
+  z-index: 15;
+  width: 50%;
+  height: auto;
+  max-height: 400px;
+  flex-shrink: 0;
+  margin-left: 1rem;
+  animation-duration: 2s;
+  animation-name: zoom-in;
+}
+
+.subtitle {
+  padding: 0 48px 48px;
+  margin: 0 auto;
+}
+
+.subtitleDark {
+  background-color: #000d19;
+  color: #89d1f1;
+}
+
+.subtitleDark strong {
+  color: #ffffff;
+}
+
+.subtitleInner {
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.45;
+  margin: 0 auto;
+  max-width: var(--ifm-container-width);
+}
+
+@media only screen and (max-width: 768px) {
+  .heroBanner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .heroLogo {
+    width: 300px;
+  }
+
+  .subtitleInner {
+    font-size: 28px;
+  }
+}
+
+@keyframes zoom-in {
+  from {
+    transform: scale(0.5);
+    transform-origin: center center;
+  }
+
+  70% {
+    transform: scale(1.05);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes bg-scroll {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes cloud-float {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-15%);
+  }
+}

@@ -1,0 +1,29 @@
+name: LinkedIn Orbit Integration
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  check-comments:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Set up ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.2
+      - name: Bundle install
+        run: |
+          gem update --system 3.1.4 -N
+          gem install --no-document linkedin_orbit
+      - name: Check for New Comments
+        run: |
+          linkedin_orbit --check-comments --historical-import
+        env:
+          LINKEDIN_ORGANIZATION: ${{ secrets.LINKEDIN_ORGANIZATION }}
+          LINKEDIN_TOKEN: ${{ secrets.LINKEDIN_TOKEN }}
+          ORBIT_API_KEY: ${{ secrets.ORBIT_API_KEY }}
+          ORBIT_WORKSPACE_ID: ${{ secrets.ORBIT_WORKSPACE_ID }}

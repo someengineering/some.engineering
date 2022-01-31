@@ -1,0 +1,209 @@
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const a11yEmoji = require('@fec/remark-a11y-emoji');
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: 'Some Engineering Inc.',
+  tagline: '',
+  url: 'https://some.engineering',
+  baseUrl: '/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
+  favicon: 'img/favicon.ico',
+  organizationName: 'someengineering',
+  projectName: 'some.engineering',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: true,
+
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          path: 'handbook',
+          routeBasePath: 'handbook',
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/someengineering/some.engineering/edit/main',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+          remarkPlugins: [a11yEmoji],
+        },
+        blog: {
+          blogTitle: 'Blog',
+          blogDescription: 'Some Engineering Inc. blog',
+          blogSidebarTitle: 'Posts',
+          path: 'blog',
+          routeBasePath: 'blog',
+          showReadingTime: true,
+          remarkPlugins: [a11yEmoji],
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+        sitemap: {
+          changefreq: 'daily',
+          priority: 0.5,
+        },
+      }),
+    ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html'],
+      },
+    ],
+  ],
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      autoCollapseSidebarCategories: true,
+      metadata: [
+        {
+          name: 'keywords',
+          content:
+            'some engineering, some engineer, resoto, sre, cloud, cloud services, cloud providers, aws, amazon web services, gcp, google cloud platform, azure, docker, kubernetes, k8s, devops, prometheus, infrastructure, resource tool, multicloud, metrics, python, terraform, vsphere, finops, risotto',
+        },
+      ],
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 5,
+      },
+      // announcementBar: {
+      //   id: 'announcementBar-1', // Increment on change
+      //   content: '',
+      // },
+      navbar: {
+        hideOnScroll: true,
+        title: 'Some Engineering Inc.',
+        logo: {
+          alt: 'Some Engineering Inc. Logo',
+          src: 'img/logo-xs.svg',
+        },
+        items: [
+          { to: '/about', label: 'About', position: 'left' },
+          {
+            label: 'Products',
+            position: 'left',
+            type: 'dropdown',
+            items: [
+              {
+                label: 'Resoto',
+                href: 'https://resoto.com',
+              },
+            ],
+          },
+          { to: '/handbook', label: 'Handbook', position: 'left' },
+          // { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/contact', label: 'Contact', position: 'left' },
+          {
+            label: 'GitHub',
+            href: 'https://github.com/someengineering',
+            position: 'right',
+            className: 'header-icon-link header-github-link',
+            'aria-label': 'GitHub',
+          },
+          {
+            label: 'LinkedIn',
+            href: 'https://www.linkedin.com/company/someengineering',
+            position: 'right',
+            className: 'header-icon-link header-linkedin-link',
+            'aria-label': 'LinkedIn',
+          },
+          // {
+          //   label: 'Twitter',
+          //   href: 'https://twitter.com/someengineering',
+          //   position: 'right',
+          //   className: 'header-icon-link header-twitter-link',
+          //   'aria-label': 'Twitter',
+          // },
+          {
+            label: 'Discord',
+            href: 'https://discord.gg/someengineering',
+            position: 'right',
+            className: 'header-icon-link header-discord-link',
+            'aria-label': 'Discord',
+          },
+        ],
+      },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Products',
+            items: [
+              {
+                label: 'Resoto',
+                href: 'https://resoto.com',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Code of Conduct',
+                to: '/code-of-conduct',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/someengineering',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/someengineering/',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Handbook',
+                to: '/handbook',
+              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/someengineering',
+              },
+              // {
+              //   label: 'Twitter',
+              //   href: 'https://twitter.com/someengineering',
+              // },
+            ],
+          },
+          {
+            title: 'Legal',
+            items: [
+              {
+                label: 'Privacy Policy',
+                to: '/privacy',
+              },
+              {
+                label: 'Terms and Conditions',
+                href: '/terms',
+              },
+            ],
+          },
+        ],
+        copyright: `<span aria-label="owl" role="img">🦉</span> Copyright © ${new Date().getFullYear()} <a href="https://some.engineering" target="_blank" rel="noopener noreferrer">Some Engineering Inc</a>. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>. <span aria-label="dinosaur" role="img">🦖</span>`,
+      },
+      prism: {
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+      },
+    }),
+};
+
+module.exports = config;
