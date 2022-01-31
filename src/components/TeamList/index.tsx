@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import React from 'react';
-import styles from './TeamList.module.css';
+import styles from './index.module.css';
 
 type Person = {
   name: string;
@@ -77,7 +77,9 @@ export default function TeamList({
   return isHomePage ? (
     <section className="section sectionAlt">
       <div className="container">
-        <h2 className="sectionTitle">Meet the Team</h2>
+        <h2 className={clsx('sectionTitle', styles.meetTheTeam)}>
+          Meet the Team
+        </h2>
         <div className={clsx(styles.teamList, styles.homepage)}>
           {TeamMembers.map((props, idx) => (
             <TeamMember key={idx} {...props} />

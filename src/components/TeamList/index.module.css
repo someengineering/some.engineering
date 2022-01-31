@@ -9,6 +9,14 @@
   justify-content: center;
 }
 
+.meetTheTeam {
+  background: url('./img/meet-the-team.svg') no-repeat;
+  background-position: center;
+  height: 4.5rem;
+  margin: 0 0 2rem;
+  font-size: 0;
+}
+
 .teamMember {
   width: 12rem;
   padding: 0 0.25rem 2rem;
