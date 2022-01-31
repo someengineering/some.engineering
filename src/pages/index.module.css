@@ -233,7 +233,6 @@
   height: auto;
   max-height: 400px;
   flex-shrink: 0;
-  margin-left: 1rem;
   animation-duration: 2s;
   animation-name: zoom-in;
 }
@@ -261,9 +260,9 @@
 }
 
 @media only screen and (max-width: 966px) {
-  .heroBanner {
-    padding-left: 20px;
-    padding-right: 20px;
+  .heroInner,
+  .subtitle {
+    padding: 48px 0;
   }
 
   .heroLogo {
