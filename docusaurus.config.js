@@ -30,7 +30,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/someengineering/some.engineering/edit/main',
-          showLastUpdateAuthor: true,
+          showLastUpdateAuthor: false,
           showLastUpdateTime: true,
           remarkPlugins: [a11yEmoji],
         },
@@ -54,6 +54,19 @@ const config = {
     ],
   ],
   plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'jobs',
+        blogTitle: 'Jobs',
+        blogDescription: 'Some Engineering Inc. career opportunities',
+        blogSidebarTitle: 'Current Openings',
+        path: 'jobs',
+        routeBasePath: 'jobs',
+        showReadingTime: false,
+        remarkPlugins: [a11yEmoji],
+      },
+    ],
     [
       '@docusaurus/plugin-client-redirects',
       {
@@ -102,6 +115,7 @@ const config = {
           },
           { to: '/handbook', label: 'Handbook', position: 'left' },
           // { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/jobs', label: 'Jobs', position: 'left' },
           { to: '/contact', label: 'Contact', position: 'left' },
           {
             label: 'GitHub',
@@ -168,6 +182,10 @@ const config = {
               {
                 label: 'Handbook',
                 to: '/handbook',
+              },
+              {
+                label: 'Jobs',
+                to: '/jobs',
               },
               // {
               //   label: 'Blog',
