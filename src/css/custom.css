@@ -229,6 +229,14 @@ html[data-theme='dark'] .resoto {
   text-decoration: none;
 }
 
+.sectionLink:hover .resoto {
+  --ifm-color-primary-contrast-background: #e0ebfa;
+}
+
+html[data-theme='dark'] .sectionLink:hover .resoto {
+  --ifm-color-primary-contrast-background: #081f36;
+}
+
 .exploreLink {
   display: block;
   font-size: 80%;
@@ -239,14 +247,6 @@ html[data-theme='dark'] .resoto {
 
 .exploreLink:after {
   content: ' →';
-}
-
-.sectionLink:hover .resoto {
-  --ifm-color-primary-contrast-background: #e0ebfa;
-}
-
-html[data-theme='dark'] .sectionLink:hover .resoto {
-  --ifm-color-primary-contrast-background: #0b2945;
 }
 
 .sectionLink:hover .sectionFeatureImage {

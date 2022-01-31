@@ -75,7 +75,7 @@ export default function Home(): JSX.Element {
           rel="noopener noreferrer"
           className="sectionLink"
         >
-          <section className="section resoto">
+          <section className="section resoto shadow--md">
             <div className="flexContainer">
               <ResotoLogo className="sectionFeatureImage" />
               <div className="sectionFeatureText">
