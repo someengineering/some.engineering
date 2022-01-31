@@ -184,7 +184,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 .flexContainer > * + * {
-  margin-left: 48px;
+  margin: 0 0 0 48px;
 }
 
 .sectionTitle {
@@ -285,7 +285,7 @@ html[data-theme='dark'] .sectionLink:hover .resoto {
   }
 
   .flexContainer > * + * {
-    margin-top: 24px;
+    margin: 24px 0 0 0;
   }
 
   .sectionFeatureImage {
