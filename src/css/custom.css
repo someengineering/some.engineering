@@ -288,12 +288,17 @@ html[data-theme='dark'] .sectionLink:hover .resoto {
     margin: 24px 0 0 0;
   }
 
+  .section {
+    padding: 48px 0;
+  }
+
   .sectionFeatureImage {
     max-height: 150px;
   }
 
   .sectionFeatureText {
     text-align: center;
+    font-size: 24px;
   }
 }
 
