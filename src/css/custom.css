@@ -258,6 +258,18 @@ html[data-theme='dark'] .sectionLink:hover .resoto {
   text-decoration: underline;
 }
 
+.breadcrumbs__link {
+  display: inline-block;
+  padding: 0;
+  transition-property: none;
+  text-decoration: none;
+  background: none !important;
+}
+
+.breadcrumbs__link:hover {
+  text-decoration: var(--ifm-link-hover-decoration);
+}
+
 @media screen and (max-width: 966px) {
   .header-icon-link {
     justify-content: flex-start;
