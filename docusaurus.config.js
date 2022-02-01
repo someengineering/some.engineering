@@ -8,7 +8,8 @@ const a11yEmoji = require('@fec/remark-a11y-emoji');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Some Engineering Inc.',
-  tagline: '',
+  tagline:
+    'Our mission is to make cloud infrastructure searchable and accessible. We are pioneering a new category of software: infrastructure intelligence.',
   url: 'https://some.engineering',
   baseUrl: '/',
   onBrokenLinks: 'throw',
