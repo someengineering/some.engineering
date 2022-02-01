@@ -34,6 +34,11 @@ const TeamMembers: Person[] = [
     githubUsername: 'TheCatLady',
     titles: ['Some Developer Experience Engineer'],
   },
+  {
+    name: 'Nikita Melkozerov',
+    githubUsername: 'meln1k',
+    titles: ['Some Engineer'],
+  },
 ];
 
 function TeamMember({ name, githubUsername, titles }: Person) {
@@ -52,7 +57,7 @@ function TeamMember({ name, githubUsername, titles }: Person) {
         />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3 className={styles.name}>{name}</h3>
+        <div className={styles.name}>{name}</div>
         <div className={styles.title}>
           {titles
             .map((title) => <>{title}</>)
