@@ -18,13 +18,13 @@ We are looking for a highly motivated **Cloud Engineer** to join the Some Engine
 
 As an ideal candidate, you show empathy when interacting with users and are receptive to feedback. You excel with minimal technical supervision and implement solutions independently while supporting the rest of the team. You embrace time constraints and collaborate to deliver high-quality products and features in a fast-paged, agile environment.
 
-Some Engineering Inc. is based in Hamburg, Germany with a fully remote international team.
+Some Engineering Inc. is based in Hamburg, Germany with a fully remote international team. While working hours are flexible, the job will require availability during Central European Time (CET) business hours to collaborate with the development team.
 
 ## Responsibilities
 
 - Collaborate with Product and Engineering teams to help deliver new [Resoto](https://resoto.com) features for our customers and users
 - Design, implement, and test solutions in the cloud
-- Perform code reviews and design reviews
+- Perform code and design reviews
 - Create designs with thoughtful and clear documentation
 - Automated processes wherever possible
 
@@ -32,7 +32,7 @@ Some Engineering Inc. is based in Hamburg, Germany with a fully remote internati
 
 ### Basic Qualifications
 
-- Strong work ethic and passion for problem-solving
+- Strong work ethic and passion for problem solving
 - Respect for the written word and the art of communication
 - Proficiency in Python
 - Ability to debug, troubleshoot, and resolve technical issues
