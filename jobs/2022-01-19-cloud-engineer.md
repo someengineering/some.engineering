@@ -26,7 +26,7 @@ As an ideal candidate, you show empathy when interacting with users and are rece
 - Design, implement, and test solutions in the cloud
 - Perform code and design reviews
 - Create designs with thoughtful and clear documentation
-- Automated processes wherever possible
+- Automate processes wherever possible
 
 ## Qualifications
 
