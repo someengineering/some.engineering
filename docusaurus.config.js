@@ -219,7 +219,7 @@ const config = {
             ],
           },
         ],
-        copyright: `<span aria-label="owl" role="img">🦉</span> Copyright © ${new Date().getFullYear()} <a href="https://some.engineering" target="_blank" rel="noopener noreferrer">Some Engineering Inc</a>. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>. <span aria-label="dinosaur" role="img">🦖</span>`,
+        copyright: `<span aria-label="owl" role="img">🦉</span> Copyright © ${new Date().getFullYear()} Some Engineering Inc. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>. <span aria-label="dinosaur" role="img">🦖</span>`,
       },
       prism: {
         theme: lightCodeTheme,
