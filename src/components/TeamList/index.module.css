@@ -3,6 +3,7 @@
   flex-direction: flex-row;
   flex-wrap: wrap;
   justify-content: start;
+  margin-bottom: -2rem;
 }
 
 .homepage {
@@ -12,7 +13,7 @@
 .meetTheTeam {
   background: url('./img/meet-the-team.svg') no-repeat;
   background-position: center;
-  height: 4.5rem;
+  height: 5rem;
   margin: 0 0 2rem;
   font-size: 0;
 }

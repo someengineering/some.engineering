@@ -2,9 +2,9 @@
 tags: [engineering]
 ---
 
-# Cloud Engineer (m/f/d)
+# Cloud Engineer
 
-<p><a href="https://www.linkedin.com/jobs/view/2879894921/" target="_blank" rel="noopener noreferrer" className="button button--primary">Apply on LinkedIn</a> or <a href="mailto:hr@some.engineering" className="button button--primary">Apply via Email</a></p>
+<p><a href="https://www.linkedin.com/jobs/view/2879894921/" target="_blank" rel="noopener noreferrer" className="button button--primary">Apply on LinkedIn</a> &nbsp; or &nbsp; <a href="mailto:hr@some.engineering" className="button button--primary">Apply via Email</a></p>
 
 | Profession  | Employment Type | Role Type              | Location |
 | ----------- | --------------- | ---------------------- | -------- |
@@ -53,7 +53,7 @@ Some Engineering Inc. is based in Hamburg, Germany with a fully remote internati
 - Flexible hours
 - 30 vacation days per year
 
-<p><a href="https://www.linkedin.com/jobs/view/2879894921/" target="_blank" rel="noopener noreferrer" className="button button--primary">Apply on LinkedIn</a> or <a href="mailto:hr@some.engineering" className="button button--primary">Apply via Email</a></p>
+<p><a href="https://www.linkedin.com/jobs/view/2879894921/" target="_blank" rel="noopener noreferrer" className="button button--primary">Apply on LinkedIn</a> &nbsp; or &nbsp; <a href="mailto:hr@some.engineering" className="button button--primary">Apply via Email</a></p>
 
 ## Resources
 

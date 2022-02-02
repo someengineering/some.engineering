@@ -92,10 +92,11 @@ const config = {
         minHeadingLevel: 2,
         maxHeadingLevel: 5,
       },
-      // announcementBar: {
-      //   id: 'announcementBar-1', // Increment on change
-      //   content: '',
-      // },
+      announcementBar: {
+        id: 'announcementBar-1', // Increment on change
+        content:
+          '<span aria-label="sparkle" role="img">✨</span> Interested in helping to build the next generation of infrastructure management tools? <a href="/jobs"><em>We\'re hiring!</em></a> <span aria-label="sparkle" role="img">✨</span>',
+      },
       navbar: {
         hideOnScroll: true,
         title: 'Some Engineering Inc.',
