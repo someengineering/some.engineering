@@ -329,6 +329,10 @@ html[data-theme='dark'] .sectionLink:hover .resoto {
     text-align: center;
     font-size: 24px;
   }
+
+  .footer__links {
+    text-align: center;
+  }
 }
 
 @keyframes wobble {
