@@ -18,7 +18,7 @@ const config = {
   organizationName: 'someengineering',
   projectName: 'some.engineering',
   deploymentBranch: 'gh-pages',
-  trailingSlash: true,
+  trailingSlash: false,
 
   presets: [
     [
@@ -176,7 +176,7 @@ const config = {
               },
               {
                 label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/someengineering/',
+                href: 'https://www.linkedin.com/company/someengineering',
               },
             ],
           },
