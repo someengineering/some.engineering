@@ -19,8 +19,8 @@
 }
 
 .teamMember {
-  width: 12rem;
-  padding: 0 0.25rem 2rem;
+  /* width: 11rem; */
+  padding: 0 1rem 2rem;
   color: inherit;
   flex-grow: 0;
 }

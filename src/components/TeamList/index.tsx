@@ -5,43 +5,36 @@ import styles from './index.module.css';
 type Person = {
   name: string;
   githubUsername: string;
-  titles: string[];
 };
 
 const TeamMembers: Person[] = [
   {
     name: 'Lukas Lösche',
     githubUsername: 'lloesche',
-    titles: ['Co-Founder', 'Some Engineer'],
   },
   {
     name: 'Lars Kamp',
     githubUsername: 'scapecast',
-    titles: ['Co-Founder', 'Some CEO'],
   },
   {
     name: 'Matthias Veit',
     githubUsername: 'aquamatthias',
-    titles: ['Co-Founder', 'Some Engineer'],
   },
   {
     name: 'Raffaele Picca',
     githubUsername: 'RPicster',
-    titles: ['Co-Founder', 'Some Designer'],
   },
   {
     name: 'Doris Houng',
     githubUsername: 'TheCatLady',
-    titles: ['Some Developer Experience Engineer'],
   },
   {
     name: 'Nikita Melkozerov',
     githubUsername: 'meln1k',
-    titles: ['Some Engineer'],
   },
 ];
 
-function TeamMember({ name, githubUsername, titles }: Person) {
+function TeamMember({ name, githubUsername }: Person) {
   return (
     <a
       href={`https://github.com/${githubUsername}`}
@@ -55,20 +48,6 @@ function TeamMember({ name, githubUsername, titles }: Person) {
           alt={name}
           src={`https://github.com/${githubUsername}.png`}
         />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <div className={styles.name}>{name}</div>
-        <div className={styles.title}>
-          {titles
-            .map((title) => <>{title}</>)
-            .reduce((prev, curr) => (
-              <>
-                {prev} &amp;
-                <br />
-                {curr}
-              </>
-            ))}
-        </div>
       </div>
     </a>
   );
