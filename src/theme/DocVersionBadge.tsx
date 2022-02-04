@@ -7,7 +7,7 @@ function useBreadCrumbs(): { label: string; href: string }[] {
   const sidebar = useDocsSidebar();
   const { pathname } = useLocation();
   const breadcrumbs: { label: string; href: string }[] = [
-    { label: 'Documentation', href: '/docs' },
+    { label: 'Handbook', href: '/handbook' },
   ];
 
   function find(sidebar: PropSidebar) {
