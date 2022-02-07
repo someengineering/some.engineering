@@ -95,7 +95,7 @@ const config = {
       announcementBar: {
         id: 'announcementBar-1', // Increment on change
         content:
-          '<span aria-label="sparkle" role="img">✨</span> Interested in helping to build the next generation of infrastructure management tools? <a href="/jobs"><em>We\'re hiring!</em></a> <span aria-label="sparkle" role="img">✨</span>',
+          '<span aria-label="sparkle" role="img" class="lg-screens-only">✨</span> Interested in helping to build the next generation of infrastructure management tools? <a href="/jobs"><em>We\'re hiring!</em></a> <span aria-label="sparkle" role="img" class="lg-screens-only">✨</span>',
       },
       navbar: {
         hideOnScroll: true,
@@ -219,7 +219,7 @@ const config = {
             ],
           },
         ],
-        copyright: `<span aria-label="owl" role="img">🦉</span> Copyright © ${new Date().getFullYear()} Some Engineering Inc. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>. <span aria-label="dinosaur" role="img">🦖</span>`,
+        copyright: `<span aria-label="owl" role="img" class="lg-screens-only">🦉</span> Copyright © ${new Date().getFullYear()} Some Engineering Inc. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>. <span aria-label="dinosaur" role="img" class="lg-screens-only">🦖</span>`,
       },
       prism: {
         theme: lightCodeTheme,

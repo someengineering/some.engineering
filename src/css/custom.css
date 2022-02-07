@@ -287,6 +287,18 @@ html[data-theme='dark'] .sectionLink:hover .resoto {
   text-decoration: var(--ifm-link-hover-decoration);
 }
 
+.card__container {
+  display: flex;
+}
+
+.card__container > .card + .card {
+  margin-left: 1rem;
+}
+
+.card {
+  max-width: 320px;
+}
+
 @media screen and (max-width: 966px) {
   .header-icon-link {
     justify-content: flex-start;
@@ -332,6 +344,10 @@ html[data-theme='dark'] .sectionLink:hover .resoto {
 
   .footer__links {
     text-align: center;
+  }
+
+  .lg-screens-only {
+    display: none;
   }
 }
 
