@@ -18,6 +18,6 @@ Our mission is to make cloud infrastructure searchable and accessible. We are pi
 
 ## Dedication to Open Source -->
 
-## The Team
+## Some Engineers
 
 <TeamList />

@@ -62,7 +62,7 @@ export default function TeamList({
     <section className="section sectionAlt">
       <div className="container">
         <h2 className={clsx('sectionTitle', styles.meetTheTeam)}>
-          Meet the Team
+          Some Engineers
         </h2>
         <div className={clsx(styles.teamList, styles.homepage)}>
           {TeamMembers.map((props, idx) => (
