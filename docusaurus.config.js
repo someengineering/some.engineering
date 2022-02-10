@@ -219,6 +219,13 @@ const config = {
             ],
           },
         ],
+        logo: {
+          alt: 'Deploys by Netlify',
+          src: 'https://netlify.com/img/global/badges/netlify-color-accent.svg',
+          width: 114,
+          height: 51,
+          href: 'https://netlify.com',
+        },
         copyright: `<span aria-label="owl" role="img" class="lg-screens-only">🦉</span> Copyright © ${new Date().getFullYear()} Some Engineering Inc. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>. <span aria-label="dinosaur" role="img" class="lg-screens-only">🦖</span>`,
       },
       prism: {
