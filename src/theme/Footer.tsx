@@ -18,7 +18,7 @@ export default function Footer(): JSX.Element {
 
   return (
     <>
-      <Logo className="footer__logo" />
+      <Logo className="companyLogo" />
       {isDev || !isBrowser ? (
         <OriginalFooter />
       ) : (
