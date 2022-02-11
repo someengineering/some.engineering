@@ -6,12 +6,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  check-comments:
+  check-linkedin:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
-      - name: Set up ruby
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7.2
@@ -19,7 +19,7 @@ jobs:
         run: |
           gem update --system 3.1.4 -N
           gem install --no-document linkedin_orbit
-      - name: Check for New Comments
+      - name: Check for new comments
         run: |
           linkedin_orbit --check-comments
         env:
