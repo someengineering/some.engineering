@@ -1,0 +1,8 @@
+https://some-engineering.netlify.app/*  https://some.engineering/:splat 301!
+
+/company-handbook/*                     /handbook/:splat
+
+/job/*                                  /jobs/:splat
+
+/privacy.html                           /privacy
+/terms.html                             /terms

@@ -78,12 +78,6 @@ const config = {
         remarkPlugins: [a11yEmoji],
       },
     ],
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        fromExtensions: ['html'],
-      },
-    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
