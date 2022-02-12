@@ -157,6 +157,7 @@ main {
   margin: -5rem auto;
   height: 10rem;
   width: auto;
+  max-width: 10rem;
   z-index: 15;
 }
 
