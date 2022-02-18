@@ -77,6 +77,19 @@ div[class^='announcementBar_'] .close {
   font-weight: 700;
 }
 
+.navbar__title:hover {
+  color: var(--ifm-navbar-link-color);
+}
+
+.navbar__item {
+  margin: 0 0.125rem;
+}
+
+.navbar__link--active {
+  background: var(--ifm-menu-color-background-active);
+  border-radius: var(--ifm-global-radius);
+}
+
 .header-icon-link > span {
   display: none;
 }
