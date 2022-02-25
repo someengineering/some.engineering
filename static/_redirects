@@ -2,3 +2,5 @@ https://some-engineering.netlify.app/*  https://some.engineering/:splat 301!
 
 /company-handbook/*                     /handbook/:splat
 /job/*                                  /jobs/:splat
+
+/podcasts/1                             /podcasts/2022/02/25/how-to-purchase-from-cloud-vendors

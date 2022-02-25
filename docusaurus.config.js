@@ -4,6 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const a11yEmoji = require('@fec/remark-a11y-emoji');
+const oembed = require('remark-plugin-oembed');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -78,6 +79,20 @@ const config = {
         remarkPlugins: [a11yEmoji],
       },
     ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'podcasts',
+        blogTitle: 'Podcasts',
+        blogDescription: 'Some Engineering Inc. podcasts',
+        blogSidebarTitle: 'Episodes',
+        path: 'podcasts',
+        routeBasePath: 'podcasts',
+        archiveBasePath: null,
+        showReadingTime: false,
+        remarkPlugins: [a11yEmoji, oembed],
+      },
+    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -122,6 +137,7 @@ const config = {
           },
           { to: '/handbook', label: 'Handbook', position: 'left' },
           // { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/podcasts', label: 'Podcasts', position: 'left' },
           { to: '/jobs', label: 'Jobs', position: 'left' },
           { to: '/contact', label: 'Contact', position: 'left' },
           {
@@ -198,6 +214,10 @@ const config = {
               //   label: 'Blog',
               //   to: '/blog',
               // },
+              {
+                label: 'Podcasts',
+                to: '/podcasts',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/someengineering',

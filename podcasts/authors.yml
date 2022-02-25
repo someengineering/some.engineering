@@ -1,0 +1,11 @@
+lars:
+  name: Lars Kamp
+  title: Some Engineer
+  image_url: https://github.com/scapecast.png
+  url: https://github.com/scapecast
+
+dieter:
+  name: Dieter Matzion
+  title: Senior Cloud Governance Engineer at Roku, Inc.
+  image_url: https://github.com/matzion.png
+  url: https://www.linkedin.com/in/matzion
