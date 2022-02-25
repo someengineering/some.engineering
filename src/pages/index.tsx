@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import ResotoLogo from '@site/static/img/resoto.svg';
 import Layout from '@theme/Layout';
