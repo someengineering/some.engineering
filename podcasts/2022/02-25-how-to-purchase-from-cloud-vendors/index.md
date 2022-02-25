@@ -1,6 +1,6 @@
 ---
 authors: [lars, dieter]
-tags: []
+image: ./img/banner-social.jpg
 ---
 
 # Episode 1: How to Purchase from Cloud Vendors

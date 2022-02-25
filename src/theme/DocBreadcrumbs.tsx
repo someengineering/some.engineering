@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import Link from '@docusaurus/Link';
 import { useSidebarBreadcrumbs } from '@docusaurus/theme-common';
 import useBaseUrl from '@docusaurus/useBaseUrl';
