@@ -1,9 +1,9 @@
 ---
 id: introduction
-title: Company Handbook
+title: Handbook
 sidebar_label: Introduction
 ---
 
-# Company Handbook
+# Handbook
 
 Welcome to the Some Engineering Inc. company handbook!
