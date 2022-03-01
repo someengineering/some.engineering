@@ -1,4 +1,4 @@
-# Engineering
+# Culture
 
 ```mdx-code-block
 import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
