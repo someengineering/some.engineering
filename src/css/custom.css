@@ -305,7 +305,7 @@ html[data-theme='dark'] .sectionLink:hover .resoto {
   text-decoration: var(--ifm-link-hover-decoration);
 }
 
-@media screen and (max-width: 966px) {
+@media screen and (max-width: 996px) {
   .header-icon-link {
     justify-content: flex-start;
   }
