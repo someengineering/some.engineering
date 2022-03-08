@@ -83,6 +83,7 @@ div[class^='announcementBar_'] .close {
 
 .navbar__item {
   margin: 0 0.125rem;
+  white-space: nowrap;
 }
 
 .navbar__link--active {

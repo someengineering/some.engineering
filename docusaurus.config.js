@@ -44,16 +44,17 @@ const config = {
           showLastUpdateTime: true,
           remarkPlugins: [a11yEmoji],
         },
-        blog: {
-          blogTitle: 'Blog',
-          blogDescription: 'Some Engineering Inc. blog',
-          blogSidebarTitle: 'Posts',
-          path: 'blog',
-          routeBasePath: 'blog',
-          archiveBasePath: null,
-          showReadingTime: true,
-          remarkPlugins: [a11yEmoji],
-        },
+        blog: false,
+        // blog: {
+        //   blogTitle: 'Blog',
+        //   blogDescription: 'Some Engineering Inc. blog',
+        //   blogSidebarTitle: 'Posts',
+        //   path: 'blog',
+        //   routeBasePath: 'blog',
+        //   archiveBasePath: null,
+        //   showReadingTime: true,
+        //   remarkPlugins: [a11yEmoji],
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -76,6 +77,10 @@ const config = {
         routeBasePath: 'jobs',
         archiveBasePath: null,
         showReadingTime: false,
+        feedOptions: {
+          type: 'all',
+          copyright: `Copyright © ${new Date().getFullYear()} Some Engineering Inc.`,
+        },
         remarkPlugins: [a11yEmoji],
       },
     ],
@@ -90,6 +95,10 @@ const config = {
         routeBasePath: 'podcasts',
         archiveBasePath: null,
         showReadingTime: false,
+        feedOptions: {
+          type: 'all',
+          copyright: `Copyright © ${new Date().getFullYear()} Some Engineering Inc.`,
+        },
         remarkPlugins: [a11yEmoji, oembed],
       },
     ],
@@ -102,7 +111,7 @@ const config = {
         {
           name: 'keywords',
           content:
-            'some engineering, some engineer, resoto, sre, cloud, cloud services, cloud providers, aws, amazon web services, gcp, google cloud platform, azure, docker, kubernetes, k8s, devops, prometheus, infrastructure, resource tool, multicloud, metrics, python, terraform, vsphere, finops, risotto',
+            'some engineering, some engineer, resoto, sre, cloud, cloud services, cloud providers, aws, amazon web services, gcp, google cloud platform, azure, docker, kubernetes, k8s, devops, prometheus, infrastructure, resource tool, multicloud, metrics, python, terraform, vsphere, finops, risotto, podcast',
         },
       ],
       tableOfContents: {
@@ -139,7 +148,6 @@ const config = {
           // { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/podcasts', label: 'Podcasts', position: 'left' },
           { to: '/jobs', label: 'Jobs', position: 'left' },
-          { to: '/contact', label: 'Contact', position: 'left' },
           {
             label: 'GitHub',
             href: 'https://github.com/someengineering',
