@@ -7,9 +7,9 @@ import React, { useEffect, useState } from 'react';
 export default function Footer(): JSX.Element {
   const isBrowser = useIsBrowser();
   const isDev =
-    process.env.NODE_ENV == 'development' ||
-    (isBrowser &&
-      !new URL(window.location.href).hostname.endsWith('some.engineering'));
+    process.env.NODE_ENV === 'development' ||
+    !isBrowser ||
+    new URL(window.location.href).hostname !== 'some.engineering';
 
   const [timestamp, setTimestamp] = useState(new Date().getTime());
   const location = useLocation();
@@ -20,7 +20,7 @@ export default function Footer(): JSX.Element {
   return (
     <>
       <Logo className="companyLogo" />
-      {isDev || !isBrowser ? (
+      {isDev ? (
         <OriginalFooter />
       ) : (
         <>
