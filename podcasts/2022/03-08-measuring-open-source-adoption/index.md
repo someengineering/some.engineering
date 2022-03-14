@@ -12,8 +12,6 @@ Understanding your user base is critical to product planning and development. Ho
 
 [Scarf](https://scarf.sh) aims to solve this problem with its [Scarf Gateway](https://about.scarf.sh/scarf-gateway) and [Documentation Insights](https://about.scarf.sh/documentation-insights). The [Scarf Gateway](https://about.scarf.sh/scarf-gateway) provides distribution analytics for open-source software and helps maintainers connect with commercial users. [Documentation Insights](https://about.scarf.sh/documentation-insights) aid in understanding how users interact with project websites and documentation.
 
-In this episode, [Lars](https://github.com/scapecast) chats with [**Avi Press**](https://avi.press), Founder and CEO at [Scarf](https://scarf.sh). Avi shares how [Scarf](https://scarf.sh) grew from a hobby project into a venture-funded startup, as well as his thoughts on the future of open-source business models.
-
-<!--truncate-->
+In this episode, [Lars](https://github.com/scapecast) chats with [**Avi Press**](https://avi.press), Founder and CEO at [Scarf](https://scarf.sh). [Avi](https://avi.press) shares how [Scarf](https://scarf.sh) grew from a hobby project into a venture-funded startup, as well as his thoughts on the future of open-source business models.
 
 https://www.youtube.com/watch?v=splRQ_2BiiM
