@@ -80,7 +80,7 @@ export default function Home(): JSX.Element {
               <ResotoLogo className="sectionFeatureImage" />
               <div className="sectionFeatureText">
                 <strong>Resoto</strong> empowers engineers and non-technical
-                users alike to <strong>query</strong> their cloud
+                users alike to <strong>search</strong> their cloud
                 infrastructure, <strong>collect</strong> information for any
                 resource, and <strong>generate</strong> meaningful metrics.
                 <span className="exploreLink">Explore Resoto</span>
