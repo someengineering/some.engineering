@@ -286,7 +286,9 @@ html[data-theme='dark'] .sectionLink:hover .resoto {
 }
 
 .sectionLink:hover .sectionFeatureImage {
+  -webkit-animation-duration: 1s;
   animation-duration: 1s;
+  -webkit-animation-name: wobble;
   animation-name: wobble;
 }
 

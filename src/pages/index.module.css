@@ -16,9 +16,13 @@
   background-size: auto 45%;
   background-position: bottom;
   background-repeat: repeat-x;
+  -webkit-animation-name: bg-scroll;
   animation-name: bg-scroll;
+  -webkit-animation-duration: 120s;
   animation-duration: 120s;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   width: 200%;
   height: 80%;
@@ -32,9 +36,13 @@
 
 .cloud {
   width: 100%;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-name: cloud-float;
   animation-name: cloud-float;
   position: relative;
 }
@@ -59,6 +67,7 @@
   z-index: 5;
   height: 30%;
   max-height: 120px;
+  -webkit-animation-duration: 120s;
   animation-duration: 120s;
 }
 
@@ -66,154 +75,185 @@
   z-index: 0;
   height: 20%;
   max-height: 60px;
+  -webkit-animation-duration: 210s;
   animation-duration: 210s;
 }
 
 .cloud:nth-child(1) {
+  -webkit-animation-delay: -18.46153846s;
   animation-delay: -18.46153846s;
   top: 2%;
 }
 
 .cloud.cloudForeground:nth-child(1) {
+  -webkit-animation-duration: 116s;
   animation-duration: 116s;
   height: 25%;
 }
 
 .cloud.cloudBackground:nth-child(1) {
+  -webkit-animation-duration: 146s;
   animation-duration: 146s;
   height: 15.5%;
 }
 
 .cloud:nth-child(2) {
+  -webkit-animation-delay: -36.92307692s;
   animation-delay: -36.92307692s;
   top: 4.5%;
 }
 
 .cloud.cloudForeground:nth-child(2) {
+  -webkit-animation-duration: 112s;
   animation-duration: 112s;
   height: 30%;
 }
 
 .cloud.cloudBackground:nth-child(2) {
+  -webkit-animation-duration: 142s;
   animation-duration: 142s;
   height: 13.25%;
 }
 
 .cloud:nth-child(3) {
+  -webkit-animation-delay: -55.38461538s;
   animation-delay: -55.38461538s;
   top: 6%;
 }
 
 .cloud.cloudForeground:nth-child(3) {
+  -webkit-animation-duration: 108s;
   animation-duration: 108s;
   height: 31%;
 }
 
 .cloud.cloudBackground:nth-child(3) {
+  -webkit-animation-duration: 138s;
   animation-duration: 138s;
   height: 16.75%;
 }
 
 .cloud:nth-child(4) {
+  -webkit-animation-delay: -73.84615385s;
   animation-delay: -73.84615385s;
   top: -8%;
 }
 
 .cloud.cloudForeground:nth-child(4) {
+  -webkit-animation-duration: 104s;
   animation-duration: 104s;
   height: 30%;
 }
 
 .cloud.cloudBackground:nth-child(4) {
+  -webkit-animation-duration: 134s;
   animation-duration: 134s;
   height: 8.25%;
 }
 
 .cloud:nth-child(5) {
+  -webkit-animation-delay: -92.30769231s;
   animation-delay: -92.30769231s;
   top: -25%;
 }
 
 .cloud.cloudForeground:nth-child(5) {
+  -webkit-animation-duration: 100s;
   animation-duration: 100s;
   height: 29%;
 }
 
 .cloud.cloudBackground:nth-child(5) {
+  -webkit-animation-duration: 130s;
   animation-duration: 130s;
   height: 5.625%;
 }
 
 .cloud:nth-child(6) {
+  -webkit-animation-delay: -110.76923077s;
   animation-delay: -110.76923077s;
   top: -48%;
 }
 
 .cloud.cloudForeground:nth-child(6) {
+  -webkit-animation-duration: 96s;
   animation-duration: 96s;
   height: 30%;
 }
 
 .cloud.cloudBackground:nth-child(6) {
+  -webkit-animation-duration: 126s;
   animation-duration: 126s;
   height: 4%;
 }
 
 .cloud:nth-child(7) {
+  -webkit-animation-delay: -129.23076923s;
   animation-delay: -129.23076923s;
   top: -56%;
 }
 
 .cloud.cloudForeground:nth-child(7) {
+  -webkit-animation-duration: 92s;
   animation-duration: 92s;
   height: 47%;
 }
 
 .cloud.cloudBackground:nth-child(7) {
+  -webkit-animation-duration: 122s;
   animation-duration: 122s;
   height: 6%;
 }
 
 .cloud:nth-child(8) {
+  -webkit-animation-delay: -147.69230769s;
   animation-delay: -147.69230769s;
   top: -96%;
 }
 
 .cloud.cloudForeground:nth-child(8) {
+  -webkit-animation-duration: 88s;
   animation-duration: 88s;
   height: 30%;
 }
 
 .cloud.cloudBackground:nth-child(8) {
+  -webkit-animation-duration: 118s;
   animation-duration: 118s;
   height: 10%;
 }
 
 .cloud:nth-child(9) {
+  -webkit-animation-delay: -166.15384615s;
   animation-delay: -166.15384615s;
   top: -72%;
 }
 
 .cloud.cloudForeground:nth-child(9) {
+  -webkit-animation-duration: 84s;
   animation-duration: 84s;
   height: 31%;
 }
 
 .cloud.cloudBackground:nth-child(9) {
+  -webkit-animation-duration: 114s;
   animation-duration: 114s;
 }
 
 .cloud:nth-child(10) {
+  -webkit-animation-delay: -184.61538462s;
   animation-delay: -184.61538462s;
   top: -120%;
   height: 40%;
 }
 
 .cloud.cloudForeground:nth-child(10) {
+  -webkit-animation-duration: 80s;
   animation-duration: 80s;
 }
 
 .cloud.cloudBackground:nth-child(10) {
+  -webkit-animation-duration: 110s;
   animation-duration: 110s;
 }
 
@@ -233,7 +273,9 @@
   height: auto;
   max-height: 400px;
   flex-shrink: 0;
+  -webkit-animation-duration: 2s;
   animation-duration: 2s;
+  -webkit-animation-name: zoom-in;
   animation-name: zoom-in;
 }
 
