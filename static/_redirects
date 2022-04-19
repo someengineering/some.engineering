@@ -5,3 +5,4 @@ https://some-engineering.netlify.app/*  https://some.engineering/:splat 301!
 
 /podcasts/1                             /podcasts/2022/02/25/how-to-purchase-from-cloud-vendors
 /podcasts/2                             /podcasts/2022/03/08/measuring-open-source-adoption
+/podcasts/3                             /podcasts/2022/04/19/combatting-waste-in-cloud-development
