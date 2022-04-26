@@ -1,6 +1,6 @@
 ---
 authors: [lars, avi]
-tags: [interview, open-source, distribution, analytics]
+tags: [interview, open source, distribution, analytics]
 image: ./img/banner-social.jpg
 ---
 
