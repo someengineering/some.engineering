@@ -1,6 +1,6 @@
 .teamList {
   display: flex;
-  flex-direction: flex-row;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
   margin-bottom: -2rem;
@@ -28,8 +28,8 @@
 .avatar {
   margin: 0 auto;
   border-radius: 50%;
-  height: var(--ifm-avatar-photo-size-xl);
-  width: var(--ifm-avatar-photo-size-xl);
+  height: var(--ifm-avatar-photo-size);
+  width: var(--ifm-avatar-photo-size);
   display: block;
   overflow: hidden;
 }

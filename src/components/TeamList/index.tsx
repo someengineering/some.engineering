@@ -42,7 +42,7 @@ function TeamMember({ name, githubUsername }: Person) {
       rel="noopener noreferrer"
       className={styles.teamMember}
     >
-      <div className={styles.avatar}>
+      <div className={clsx('avatar__photo--xl', styles.avatar)}>
         <img
           className={styles.avatarImage}
           alt={name}
