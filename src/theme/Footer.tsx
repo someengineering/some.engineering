@@ -2,14 +2,17 @@ import { useLocation } from '@docusaurus/router';
 import useIsBrowser from '@docusaurus/useIsBrowser';
 import Logo from '@site/static/img/logo-md.svg';
 import OriginalFooter from '@theme-original/Footer';
-import React, { useEffect, useState } from 'react';
+import type FooterType from '@theme/Footer';
+import React, { ComponentProps, useEffect, useState } from 'react';
 
-export default function Footer(): JSX.Element {
+type Props = ComponentProps<typeof FooterType>;
+
+export default function Footer(props: Props): JSX.Element {
   const isBrowser = useIsBrowser();
   const isDev =
     process.env.NODE_ENV === 'development' ||
     !isBrowser ||
-    new URL(window.location.href).hostname !== 'some.engineering';
+    new URL(window.location.href).hostname !== 'resoto.com';
 
   const [timestamp, setTimestamp] = useState(new Date().getTime());
   const location = useLocation();
@@ -20,9 +23,7 @@ export default function Footer(): JSX.Element {
   return (
     <>
       <Logo className="companyLogo" />
-      {isDev ? (
-        <OriginalFooter />
-      ) : (
+      {isDev ? null : (
         <>
           <img
             src={`https://static.scarf.sh/a.png?x-pxid=7341e2b9-4c79-40ee-b2a9-c4b5ad3b9fb3&${timestamp}`}
@@ -34,9 +35,9 @@ export default function Footer(): JSX.Element {
               marginBottom: '-1px',
             }}
           />
-          <OriginalFooter />
         </>
       )}
+      <OriginalFooter {...props} />
     </>
   );
 }

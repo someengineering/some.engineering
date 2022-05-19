@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
       - name: Install dependencies
         env:
-          HUSKY_SKIP_INSTALL: 1
+          HUSKY: 0
         run: yarn install --frozen-lockfile
       - name: Lint
         run: yarn lint
