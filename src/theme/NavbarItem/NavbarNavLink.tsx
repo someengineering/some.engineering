@@ -29,7 +29,7 @@ export default function NavbarNavLink({
     ? { dangerouslySetInnerHTML: { __html: html } }
     : {
         children: (
-          <span>
+          <span className="navLinklabel">
             {label}
             {isExternalLink && (
               <IconExternalLink
