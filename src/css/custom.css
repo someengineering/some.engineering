@@ -349,6 +349,17 @@ html[data-theme='dark'] .sectionLink:hover .resoto {
     text-align: center;
   }
 
+  .footer__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer__item {
+    margin: 0 0.75em;
+  }
+
   .lg-screens-only {
     display: none;
   }
