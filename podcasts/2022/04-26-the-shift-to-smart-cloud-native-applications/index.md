@@ -6,7 +6,7 @@ image: ./img/banner-social.jpg
 
 # Episode 4: The Shift to Smart Cloud-Native Applications
 
-[**Tobi Knaup**](https://www.linkedin.com/in/tobiasknaup) is the CEO and a co-founder at [D2iQ](https://d2iq.com), an enterprise [Kubernetes](https://kubernetes.io) platform. [D2iQ](https://d2iq.com) combines the best open-source technology from the cloud-native technology landscape into a single [Kubernetes](https://kubernetes.io) solution. Customers can deploy this solution without worrying about the individual pieces they would otherwise need to assemble, maintain, and update.
+[**Tobi Knaup**](https://linkedin.com/in/tobiasknaup) is the CEO and a co-founder at [D2iQ](https://d2iq.com), an enterprise [Kubernetes](https://kubernetes.io) platform. [D2iQ](https://d2iq.com) combines the best open-source technology from the cloud-native technology landscape into a single [Kubernetes](https://kubernetes.io) solution. Customers can deploy this solution without worrying about the individual pieces they would otherwise need to assemble, maintain, and update.
 
 In this episode, we discuss the shift to cloud-native infrastructure and how we are now seeing a new class of smart cloud-native applications emerge. Smart cloud-native applications include artificial intelligence (AI) components that leverage data from production applications. These new applications enable entirely new use cases in every industry. Examples are autonomous driving in automotive, medical imaging in healthcare, and fraud detection in banking or crypto trading.
 

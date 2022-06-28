@@ -14,3 +14,4 @@ https://podcasts.some.engineering/*     https://some.engineering/podcasts/:splat
 /podcasts/2                             /podcasts/2022/03/08/measuring-open-source-adoption
 /podcasts/3                             /podcasts/2022/04/19/combatting-waste-in-cloud-development
 /podcasts/4                             /podcasts/2022/04/26/the-shift-to-smart-cloud-native-applications
+/podcasts/5                             /podcasts/2022/06/29/shifting-from-finops-to-financial-engineering
