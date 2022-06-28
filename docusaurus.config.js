@@ -1,10 +1,13 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 // @ts-check
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const a11yEmoji = require('@fec/remark-a11y-emoji');
 const oembed = require('remark-plugin-oembed');
+
+const isProd =
+  process.env.NODE_ENV !== 'development' &&
+  !!process.env.NETLIFY &&
+  process.env.CONTEXT !== 'deploy-preview';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -26,6 +29,15 @@ const config = {
       crossorigin: true,
     },
   ],
+  scripts: isProd
+    ? [
+        {
+          src: 'https://plausible.io/js/script.js',
+          defer: true,
+          'data-domain': 'some.engineering',
+        },
+      ]
+    : [],
   presets: [
     [
       'classic',
@@ -245,8 +257,8 @@ const config = {
         copyright: `<span aria-label="owl" role="img" class="lg-screens-only">🦉</span> Copyright © ${new Date().getFullYear()} Some Engineering Inc. Built with <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>. <span aria-label="dinosaur" role="img" class="lg-screens-only">🦖</span>`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: require('prism-react-renderer/themes/github'),
+        darkTheme: require('prism-react-renderer/themes/dracula'),
       },
     }),
 };
