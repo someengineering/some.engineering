@@ -10,6 +10,6 @@ Use the single-color or inverted single-color variants where the use of color is
 
 ## Clear Space
 
-Maintain a margin of one “pupil to face edge“ around the logo.
+Maintain a margin of one "pupil to face edge" around the logo.
 
 If the selected logo variant features shadows, do not factor the shadows into the clear space
