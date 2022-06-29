@@ -32,7 +32,7 @@ const config = {
   scripts: isProd
     ? [
         {
-          src: 'https://plausible.io/js/script.js',
+          src: 'https://some.engineering/js/script.js',
           defer: true,
           'data-domain': 'some.engineering',
         },

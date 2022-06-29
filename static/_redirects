@@ -1,5 +1,12 @@
 https://some-engineering.netlify.app/*  https://some.engineering/:splat 301!
 
+https://handbook.some.engineering/*     https://some.engineering/handbook/:splat 301!
+https://jobs.some.engineering/*         https://some.engineering/jobs/:splat 301!
+https://podcasts.some.engineering/*     https://some.engineering/podcasts/:splat 301!
+
+/js/script.js                           https://plausible.io/js/script.js 200
+/api/event                              https://plausible.io/api/event 200
+
 /company-handbook/*                     /handbook/:splat
 /job/*                                  /jobs/:splat
 
