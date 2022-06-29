@@ -1,6 +1,6 @@
 # Exclusion from Telemetry
 
-As described in [Measuring Product Adoption](./measuring-product-adoption.md), we track product and website analytics.
+As described in [Measuring Product Adoption](./index.md), we track product and website analytics.
 
 Our work will often require using our product and viewing our websites. In order to keep our analytics data as representative of our user base as possible, we encourage employees to disable telemetry.
 
