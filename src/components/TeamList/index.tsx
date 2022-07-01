@@ -32,6 +32,14 @@ const TeamMembers: Person[] = [
     name: 'Nikita Melkozerov',
     githubUsername: 'meln1k',
   },
+  {
+    name: 'Pablo Fonovich',
+    githubUsername: 'azagaya',
+  },
+  {
+    name: 'Anja Freihube',
+    githubUsername: 'anjafr',
+  },
 ];
 
 function TeamMember({ name, githubUsername }: Person) {
