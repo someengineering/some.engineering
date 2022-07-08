@@ -143,7 +143,7 @@ const config = {
         hideOnScroll: true,
         title: 'Some Engineering Inc.',
         logo: {
-          alt: 'Some Engineering Inc. Logo',
+          alt: '',
           src: 'img/logo-xs.svg',
         },
         items: [

@@ -1,7 +1,7 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import ResotoLogo from '@site/static/img/resoto.svg';
 import Layout from '@theme/Layout';
-import clsx from 'clsx';
+import { clsx } from 'clsx';
 import React from 'react';
 import TeamList from '../components/TeamList';
 import styles from './index.module.css';
